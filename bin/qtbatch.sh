@@ -8,6 +8,6 @@ for i in `ls {*.mp4,*.MP4}`
   else
     newfile="$i"
   fi
-  #sudo qtfaststart "$i" "$newfile"
+  qtfaststart "$i" "$newfile"
   echo "$newfile"; 
 done
